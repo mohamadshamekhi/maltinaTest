@@ -1,15 +1,17 @@
 /* #region global */
 * {
-  font-family: iranyekanBakh;
+  font-family: IRANSans-web;
 }
 
 html {
   scroll-behavior: smooth;
 }
+a {
+  text-decoration: none;
+}
 
 body {
   direction: rtl;
-  text-align: right;
 }
 
 .container {

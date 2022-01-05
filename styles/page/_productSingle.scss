@@ -1,0 +1,24 @@
+.product_single {
+  padding-top: 64px;
+  padding-bottom: 72px;
+  .intro_products {
+    margin-bottom: 63px;
+    padding-bottom: 44px;
+    border-bottom: solid 1px #d6d6d6;
+    text-align: center;
+
+    img {
+      width: 497px;
+      height: 497px;
+      object-fit: contain;
+    }
+    h4 {
+      font-size: 24px;
+      font-weight: 500;
+      color: #000;
+    }
+  }
+  .comments {
+    margin-bottom: -63px;
+  }
+}

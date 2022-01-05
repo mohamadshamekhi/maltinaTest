@@ -1,0 +1,28 @@
+.product_item {
+  padding: 32px 31px 20px;
+  border: solid 1px #d6d6d6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .pic {
+    display: inline-block;
+    width: 271px;
+    height: 271px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      margin-bottom: 23px;
+    }
+  }
+  h6 {
+    direction: ltr !important;
+    margin-bottom: 0;
+
+    a {
+      font-size: 16px;
+      font-weight: normal;
+      color: #5f6c84;
+    }
+  }
+}

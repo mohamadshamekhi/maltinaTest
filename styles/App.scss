@@ -1,4 +1,12 @@
-
 // base
 @import "./base/global.scss";
 @import "./base/fonts.scss";
+
+//page
+@import "./page/products";
+@import "./page/productSingle";
+
+//components
+@import "./components/productItem";
+@import "./components/commentCard";
+
