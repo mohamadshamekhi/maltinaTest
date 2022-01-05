@@ -1,0 +1,38 @@
+/* #region global */
+* {
+  font-family: iranyekanBakh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  direction: rtl;
+  text-align: right;
+}
+
+.container {
+  max-width: 1600px;
+  padding: 0 20px;
+}
+
+input {
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+/* #endregion global */
+
+.ltr {
+  direction: ltr;
+}
