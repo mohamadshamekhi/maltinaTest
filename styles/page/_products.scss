@@ -1,6 +1,8 @@
 section.products {
   padding-top: 53px;
   .alert_box {
+    display: flex; 
+    align-items: center;
     margin-bottom: 15px;
     width: 80%;
     padding: 14px 11px;

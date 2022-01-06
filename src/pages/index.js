@@ -2,9 +2,7 @@ import { useEffect, useState } from "react";
 import { Spinner } from "react-bootstrap";
 import Layout from "../components/common/layouts";
 import ProductsCard from "../components/page/products/productsCard";
-
-//svg
-// import { ReactComponent as AlertIcon } from "../../public/assets/image/icons/alertIcon.svg";
+import AlertIcon from "../components/icons/AlertIcon";
 
 function Products() {
   const [dataList, setDataList] = useState("loading");
@@ -21,7 +19,7 @@ function Products() {
     <Layout>
       <section className="products">
         <div className="alert_box">
-          {/* <AlertIcon /> */}
+          <AlertIcon />
           <p>
             تغییر وضعیت کالا ممکن هست با تاخیر انجام گردد اما مراحل خرید و ارسال
             طبق زمان تخمینی اعلام شده انجام خواهد شد.
