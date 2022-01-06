@@ -2,11 +2,14 @@
 @import "./base/global.scss";
 @import "./base/fonts.scss";
 
+//abstracts
+@import "./abstracts/mixins";
+
 //page
 @import "./page/products";
 @import "./page/productSingle";
 
+
 //components
 @import "./components/productItem";
 @import "./components/commentCard";
-

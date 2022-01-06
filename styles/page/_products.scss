@@ -1,7 +1,7 @@
 section.products {
   padding-top: 53px;
   .alert_box {
-    display: flex; 
+    display: flex;
     align-items: center;
     margin-bottom: 15px;
     width: 80%;
@@ -9,7 +9,13 @@ section.products {
     border-radius: 3px;
     border: solid 1px #f7e8a1;
     background-color: #fffde4;
-
+    
+    @include mq(1050){
+      width: 100%;
+    }
+    svg{
+      flex-shrink: 0;
+    }
     p {
       margin-right: 10px;
       margin-bottom: 0;
@@ -26,6 +32,15 @@ section.products {
 
     .product_item {
       width: 25%;
+      @include mq(1300) {
+        width: 33.333333%;
+      }
+      @include mq(850) {
+        width: 50%;
+      }
+      @include mq(570) {
+        width: 100%;
+      }
     }
   }
 }

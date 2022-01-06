@@ -25,7 +25,7 @@ function ProductSingle() {
     });
   };
   return (
-    <Layout>
+    <Layout title={dataList.title}>
       <section className="product_single">
         <div className="intro_products">
           <img src={dataList.picUrl} alt="" />

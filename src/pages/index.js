@@ -16,7 +16,7 @@ function Products() {
       .then((data) => setDataList(data.products));
   };
   return (
-    <Layout>
+    <Layout title="لیست محصولات">
       <section className="products">
         <div className="alert_box">
           <AlertIcon />
